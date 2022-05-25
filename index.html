@@ -8,19 +8,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
+  <div class="container">
     <div class="title">
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
-    <form action="#">
+    <form action="#" id="survey-form">
       <label for="name" id="name-label">Name</label>
-      <input type="text" class="name" placeholder="Enter your name">
+      <input type="text" class="text-field" id="name" placeholder="Enter your name" required>
       <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" placeholder="Enter your email" id="email">
+      <input type="email" name="email" class="text-field" placeholder="Enter your email" id="email" required>
       <label for="age" id="number-label">Age(optional)</label>
-      <input type="number" id="number" min="18" max="90" placeholder="Example 24">
-      <label for="dropdown" id="dropdown">Which option best describes your current role?</label>
+      <input class="text-field" type="number" id="number" min="18" max="90" placeholder="Example 24">
+      <label for="dropdown">Which option best describes your current role?</label>
       <select name="roles" id="dropdown" aria-placeholder="select a correct role">
         <option value="student">student</option>
         <option value="full-time-job">full time job</option>
@@ -52,7 +52,7 @@
       <label for="react">REACT</label>
       <label for="comment">Any comments or suggestions?</label>
       <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
-      <input type="button" id="submit" value="submit">
+      <input type="submit" id="submit" value="submit">
   
     </form>
   </div>
