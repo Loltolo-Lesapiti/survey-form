@@ -16,6 +16,7 @@ body{
    width: 60%;
    background-color: rgba(27, 27, 50,0.8);
    color: #fff;
+   padding: 5% 2%;
 }
 label {
   align-self:flex-start;
@@ -24,6 +25,29 @@ label {
   margin-left: 5%;
 }
 .text-field {
-   height: 30px;
+   height: 44px;
    margin: 0 5%;
+   border-radius: 5px;
+}
+.checkbox{
+  font-size: 20px;
+  font-weight: normal;
+}
+.message{
+  font-weight: 15px;
+  font-size: small;
+}
+.radio-btn{
+  margin-left: 5%;
+}
+placeholder{
+  font-size: large;
+}
+#comment{
+  height: auto;
+  margin: 0 5%;
+  border-radius: 5px;
+}
+#submit{
+  background-color: green;
 }

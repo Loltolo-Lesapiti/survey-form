@@ -21,19 +21,21 @@
       <label for="age" id="number-label">Age(optional)</label>
       <input class="text-field" type="number" id="number" min="18" max="90" placeholder="Example 24">
       <label for="dropdown">Which option best describes your current role?</label>
-      <select name="roles" id="dropdown" class="text-field" aria-placeholder="select a correct role">
+      <select name="roles" id="dropdown" class="text-field" placeholder="select a correct role">
         <option value="student">student</option>
         <option value="full-time-job">full time job</option>
         <option value="part-time-job">part time job</option>
         <option value="other">other</option>
       </select>
+
       <label for="radio-btn">Would you recommend freeCodeCamp to a friend?</label>
-      <label for="definately">Definately</label>
-      <input type="radio">
+      <input class="radio-btn" type="radio" value="Definately">
+      <label for="definately">Definately</label><br>
+      <input class="radio-btn" type="radio" value="maybe">
       <label for="Maybe">Maybe</label>
-      <input type="radio">
+      <input class="radio-btn" type="radio" value="not-sure">
       <label for="not-sure">Not Sure</label>
-      <input type="radio">
+
       <label for="dropdown" id="dropdown">What is your favorite feature of freeCodeCamp??</label>
       <select name="roles" id="dropdown" class="text-field" aria-placeholder="select an option">
         <option value="student">Challenges</option>
@@ -42,17 +44,13 @@
         <option value="other">other</option>
       </select>
       <label for="checkbox" id="checkbox">What would you like to see improved? (Check all that apply)</label>
-      <input type="checkbox" name="CSS" id="css">
-      <label for="CSS">CSS</label>
-      <input type="checkbox" name="html" id="html">
-      <label for="html">HTML</label>
-      <input type="checkbox" name="javascript" id="javascript">
-      <label for="javascript">JAVASCRIPT</label>
-      <input type="checkbox" name="react" id="react">
-      <label for="react">REACT</label>
-      <label for="comment">Any comments or suggestions?</label>
+      <label for="html"  class="checkbox"><input type="checkbox" name="html" id="html">  HTML</label>
+      <label for="javascript" class="checkbox"> <input  type="checkbox" name="javascript" id="javascript"> JAVASCRIPT</label>
+      <label for="react" class="checkbox"><input type="checkbox" name="react" id="react"> REACT</label>
+      <label for="css" class="checkbox"><input type="checkbox" name="css" id="react"> CSS</label>
+      <label class="message" for="comment" class="checkbox">Any comments or suggestions?</label>
       <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
-      <input type="submit" id="submit" value="submit">
+      <input type="submit" id="submit" class="text-field" value="submit">
   
     </form>
   </div>
