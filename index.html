@@ -21,20 +21,20 @@
       <label for="age" id="number-label">Age(optional)</label>
       <input class="text-field" type="number" id="number" min="18" max="90" placeholder="Example 24">
       <label for="dropdown">Which option best describes your current role?</label>
-      <select name="roles" id="dropdown" class="text-field" placeholder="select a correct role">
+      <select name="roles" id="dropdown" class="text-field" >
+        <option value="student" disabled selected hidden>Select one below</option>
         <option value="student">student</option>
         <option value="full-time-job">full time job</option>
         <option value="part-time-job">part time job</option>
         <option value="other">other</option>
       </select>
-
-      <label for="radio-btn">Would you recommend freeCodeCamp to a friend?</label>
-      <input class="radio-btn" type="radio" value="Definately">
-      <label for="definately">Definately</label><br>
-      <input class="radio-btn" type="radio" value="maybe">
-      <label for="Maybe">Maybe</label>
-      <input class="radio-btn" type="radio" value="not-sure">
-      <label for="not-sure">Not Sure</label>
+      
+      <label for="radio-message">Would you recommend freeCodeCamp to a friend?</label>
+      <div class="radio-button"><input type="radio" value="definately"><label for="radio-btn">Definately</label></div>
+      <div class="radio-button">
+        <input type="radio" value="maybe"><label for="maybe">Maybe</label></div>
+      <div class="radio-button"><input type="radio" value="not-sure"><label for="not-sure">Not Sure</label>
+      </div>
 
       <label for="dropdown" id="dropdown">What is your favorite feature of freeCodeCamp??</label>
       <select name="roles" id="dropdown" class="text-field" aria-placeholder="select an option">
