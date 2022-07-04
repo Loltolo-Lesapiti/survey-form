@@ -36,6 +36,7 @@ label {
   font-size: 20px;
   font-weight: bold;
   margin-left: 5%;
+  margin-top: 2%;
 }
 .text-field {
    height: 30px;
@@ -70,4 +71,19 @@ label {
 }
 .radio-button{
   margin-left: 5%;
+}
+#survey-form span{
+  color:rgba(255, 0, 0, 0.705);
+  font-size: 14px;
+  margin-left: 88%;
+  margin-top: -36px;
+  font-weight: bold;
+  
+}
+#survey-form span i{
+  color:rgba(0, 255, 0, 0.705);
+  font-size: 14px;
+  margin-left: 88%;
+  margin-top: -36px;
+  
 }

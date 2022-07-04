@@ -6,20 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Petro-Survey</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="title">
-    <h1 id="title">Survey Form</h1>
+  <div class= "container">
+    <div class= "title">
+    <h1 id= "title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
     <form action="#" id="survey-form">
       <label for="name" id="name-label">Name</label>
-      <input type="text" class="text-field" id="name" placeholder="Enter your name" required>
+      <input type="text" class="text-field" id="name" onkeyup="validateName()" placeholder="Enter your name" required>
+      <span id="nameError"></span>
       <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" class="text-field" placeholder="Enter your email" id="email" required>
+      <input type="email" name="email" onkeyup="validateEmail()" class="text-field" placeholder="Enter your email" id="email" required>
+      <span id="emailError"></span>
       <label for="age" id="number-label">Age(optional)</label>
-      <input class="text-field" type="number" id="number" min="18" max="90" placeholder="Example 24">
+      <input class="text-field" onkeyup="validateAge()" type="number" id="number" min="18" max="90" placeholder="Example 24">
+      <span id="ageError"></span>
       <label for="dropdown">Which option best describes your current role?</label>
       <select name="roles" id="dropdown" class="text-field" >
         <option value="student" disabled selected hidden>Select one below</option>
@@ -54,6 +58,6 @@
   
     </form>
   </div>
-  
+  <script src="script.js"></script>
 </body>
 </html>
