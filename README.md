@@ -7,9 +7,9 @@
 
 ## Built With
 
-- Major languages- HTML, CSS and JavaScript
+- Major languages- HTML, CSS and HTML
 - Frameworks-n/a
-- Technologies n/a
+- Technologies-n/a
 
 ## Live Demo (if available)
 
@@ -43,6 +43,12 @@ To get a local copy up and running follow these simple example steps.
 👤 **Petro Lesapiti**
 
 - GitHub: [@githubhandle](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Kidde Wiliam**
+
+- GitHub: [@githubhandle](https://github.com/kidde60)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
